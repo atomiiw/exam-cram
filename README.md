@@ -1,6 +1,6 @@
 # Exam cram
 
-This is a Claude skill for when your exam is a few days away and you have not studied. You give it your homework and practice exams, and it works out what the exam will ask and lays out what to do each day. Then it teaches you in five-minute pieces, each one a simple picture, a few plain sentences and three easy questions, so you never have to think about what to do next.
+Exam cram is a Claude skill for problem-solving courses like physics, math and engineering. You give it your homework and a practice exam, and it works out exactly which equations each exam problem needs and teaches you only those, in five-minute pieces you can follow on a tired brain. Thirty minutes in, you solve the first problem on the exam by yourself.
 
 ## One five-minute piece
 
@@ -23,7 +23,7 @@ This is a Claude skill for when your exam is a few days away and you have not st
 >
 > **Claude:** All three right. Next is Chunk 3, frequency and speed.
 
-After eight of these you solve the first exam problem by yourself.
+Six of these, at most, and then you do problem 1 of your practice exam.
 
 ## The plan it writes
 
@@ -37,7 +37,7 @@ After eight of these you solve the first exam problem by yourself.
 | HW5 Q5 | ✍️ | Linear or circular |  |
 ```
 
-📚 is a lesson. ✍️ is one of your own homework problems, done closed-book. The last day is timed mock exams.
+📚 is a lesson. ✍️ is one of your own homework or exam problems, done closed-book. The last day is timed mock exams.
 
 ## What it needs
 
