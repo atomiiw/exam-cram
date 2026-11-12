@@ -6,6 +6,8 @@ Skip the textbook. Hand Claude your homework. It hunts down the only equations y
 
 You just follow along, and it soaks in by osmosis. 30 minutes in, you can already solve problem 1 on the exam.
 
+**Built for the Tired Brain.**
+
 ## One bite
 
 > **Chunk 2 · which way the wave goes**
