@@ -6,7 +6,7 @@ It's midnight. The exam is in four days. Last time you studied, you chewed throu
 
 Skip the textbook. Hand Claude your homework. It hunts down the only equations your exam uses and feeds them to you in five-minute bites: one picture, three plain sentences, three easy questions.
 
-You just follow along and it soaks in like osmosis. Thirty minutes in, you solve problem 1. By exam day, you can do every homework problem in the course.
+You just follow along and it soaks in like osmosis. Thirty minutes in, you solve problem 1. By exam day, there is nothing on the paper you haven't already solved.
 
 For problem-solving courses: physics, math, engineering, chem, stats, econ.
 
