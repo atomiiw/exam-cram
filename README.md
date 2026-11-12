@@ -2,7 +2,11 @@
 
 **Built for the Tired Brain.**
 
-It's midnight, the exam is in four days, and the last time you tried to study you chewed through fifty slides and still couldn't start a single homework problem. So skip the textbook: hand Claude your homework, and it hunts down the only equations your exam uses and feeds them to your Tired Brain in five-minute bites, each one a picture, three plain sentences and three easy questions. You just follow along and it soaks in like osmosis: thirty minutes in, you solve problem 1, and by exam day you can do every homework problem in the course.
+It's midnight. The exam is in four days. Last time you studied, you chewed through fifty slides and still couldn't start one homework problem.
+
+Skip the textbook. Hand Claude your homework. It hunts down the only equations your exam uses and feeds them to you in five-minute bites: one picture, three plain sentences, three easy questions.
+
+You just follow along and it soaks in like osmosis. Thirty minutes in, you solve problem 1. By exam day, you can do every homework problem in the course.
 
 For problem-solving courses: physics, math, engineering, chem, stats, econ.
 
