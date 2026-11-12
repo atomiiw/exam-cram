@@ -6,7 +6,20 @@ Contents: a chunk · worked example of a chunk · the picture · the explanation
 
 A lesson item (📚 row) is taught as a short series of chunks. One chunk is about five minutes of the student's attention and carries **one idea**: usually one equation or one rule that a problem needs. Before teaching an item, list its chunks, one idea each, in an order where each needs only the ones before it. If the environment has a task list, show the chunk list there so the student sees progress.
 
-The first item is special: it is built only from what problem 1 of the practice exam needs (usually around six chunks), and it ends with the student solving a problem of the same kind, a matching homework problem or a twin you write (see `decomposition.md`, "The first lesson"). Exam papers themselves are never used while learning; examples and twins you write must not copy an exam problem's numbers.
+The first item is special. It is aimed at problem 1 of the practice exam and cut into very small steps, one new symbol or rule per chunk, with the stepping stones that make each equation obvious. It ends with a put-it-together chunk (see "The last chunk of an item"). Exam papers themselves are never used while learning; examples and twins you write must not copy an exam problem's numbers.
+
+This is the chunk list of a real first lesson, for an exam whose first problem gives an electric-field phasor and asks for direction, speed, the material and the magnetic field. Use it to calibrate the size of a step:
+
+1. Wavelength and β (a wave with one λ marked)
+2. Which way the wave goes (the sign in front of βz)
+3. Frequency and speed (a crest moves one λ per period; v = λf = ω/β)
+4. Phasor notation (the same wave with ωt hidden)
+5. Directions of E and H (three perpendicular arrows; the cross-product cycle taught here)
+6. Wave impedance η (E/H = η, like V/I = Z0; 377 Ω in air)
+7. A material slows the wave (v, λ and η all divided by √εr)
+8. A whole problem (recipe, one worked, one for the student)
+
+Each line is one idea and one picture. A student who had not opened the course in weeks got through these with almost no wrong quiz answers, and solved the problem in chunk 8. If the exam problem also asks for power flow, that is one more chunk before the last.
 
 Every chunk has the same four parts, in this order:
 

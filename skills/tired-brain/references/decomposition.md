@@ -68,16 +68,16 @@ Lecture material that no problem touches and the scope statement does not name i
 
 ## The first lesson
 
-The first half hour decides whether the student stays. They end with the student solving, alone, a problem just like the first one on the exam, so build the lesson from that exam problem's chain and from nothing else.
+The first half hour decides whether the student stays. It ends with the student solving, alone, a problem just like the first one on the exam, so the lesson is aimed at that exam problem's chain.
 
-- Take the chain for practice exam problem 1. Each idea in it is one chunk, in the order the chain uses them. Merge two only when one is a single symbol.
-- That usually comes to around six chunks. It is an aim, not a cap: teach every idea the chain needs, one per chunk, and do not drop or merge ideas to reach a number.
-- Do not add what the chapter "starts with". If problem 1 never asks for a wavelength, wavelength waits.
-- Prerequisites the student has forgotten are taught inside the chunk that needs them, in two or three lines.
-- The lesson is item `A1`. The row after it is the problem they solve: a homework problem whose chain matches problem 1's, or, when none matches closely enough, a twin you write (`A1 drill`) with the same sub-parts and different numbers and directions.
+- Take the chain for practice exam problem 1 and cut it into the smallest steps that still make sense on their own: one new symbol or one new rule per chunk.
+- Add stepping stones. An equation is easy when every symbol in it is already familiar, so teach the symbols first even if the problem never asks for them: wavelength before β, the cos form before the phasor form, the cross-product cycle inside the chunk that first needs a cross product.
+- Prefer more, smaller chunks. Eight or so is normal for a first lesson. Never merge two ideas to hit a number of chunks or minutes.
+- Leave out only what no later step leans on.
+- The last chunk is the whole problem: recipe picture, a problem you work, then a twin the student solves. The twin is the row after `A1` in the plan: a homework problem whose chain matches problem 1's, or, when none matches closely enough, one you write (`A1 drill`) with the same sub-parts and different numbers and directions.
 - The exam problem itself is not shown, quoted or solved. It stays unseen for mock day.
 
-With no practice exam, aim the lesson at the homework problem that looks most like an exam problem and comes earliest in the material, and have the student solve a twin of it.
+With no practice exam, aim the lesson at the homework problem that looks most like an exam problem and comes earliest in the material.
 
 ## What to keep in your head for each item
 

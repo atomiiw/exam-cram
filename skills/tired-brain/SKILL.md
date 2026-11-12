@@ -43,15 +43,15 @@ Group the chains into **items** (one capability each, two to five words, `A1`, `
 
 The promise of the plan is that a student who finishes every row has solved every homework problem in scope and can do every kind of problem on the exam. Before you show it, audit it: list every in-scope problem and sub-part from the files, and check that each is a ✍️ row or is named on the skipped line with its reason. Nothing is left out silently.
 
-## 4. The first 30 minutes
+## 4. The first lesson
 
-The first lesson is built backward from **problem 1 of the practice exam** (with no practice exam, the most exam-like homework problem).
+The first lesson is aimed at **problem 1 of the practice exam** (with no practice exam, the most exam-like homework problem). By the end of it the student can solve a problem of that kind alone.
 
-- List what that one problem needs, in dependency order. One chunk each. That is usually around six chunks, about half an hour.
-- Leave out everything it does not need, however fundamental it looks. This is what keeps it near half an hour. Thirty minutes is the aim, not a limit: if the problem needs eight ideas, teach eight, and never squeeze two into one chunk to hit a number.
-- Then the student solves **a problem of the same kind**: a homework problem that matches it, or a twin you write with different numbers. Not the exam problem itself.
-
-This lesson is item `A1`, and the matching problem is the ✍️ row right after it.
+- Start from that problem's chain. Then cut it into steps small enough for a tired brain: **one new symbol or one new rule per chunk**. If an equation has two unfamiliar symbols in it, the symbols come first, each in its own chunk.
+- Add the stepping stones that make each equation obvious, even when the problem never asks for them directly. A chunk on wavelength makes β mean something before v = ω/β appears. A chunk on the cos form makes the phasor form readable.
+- Small steps beat few steps. A first lesson is usually around eight chunks. Do not merge chunks to save time; "thirty minutes" is the spirit, not a stopwatch.
+- What stays out is whatever no later step leans on.
+- The **last chunk** puts it together: a picture of the recipe, one problem you work step by step, then a twin for the student with different numbers and at least one twist. That twin is the ✍️ row after `A1`: a matching homework problem if one exists, otherwise one you write. Not the exam problem itself.
 
 **Exam papers are for mock day only.** While learning, ✍️ rows are homework problems, textbook or slide problems, or problems you write. You read the practice exam to plan; the student does not see any of it until the timed run.
 
@@ -80,10 +80,10 @@ Tick ✅ in the file when a row is done and say what is next.
 ## Easy to get wrong
 
 - A review of prerequisites or a list of formulas before the first chunk. Teach each prerequisite inside the chunk that first needs it.
-- Two ideas in one chunk, or two things in one picture.
+- Two ideas in one chunk, or two things in one picture. A chunk that introduces β, λ, ω and v at once is four chunks.
 - Asking the student to memorize. Say what the exam hands out and what it does not; repetition does the rest.
 - Teaching something no problem uses.
-- A first lesson that tours the chapter instead of aiming at problem 1.
+- A first lesson that tours the chapter instead of aiming at problem 1, or one so compressed that each chunk carries several new symbols.
 - Using any part of a practice or past exam before mock day.
 - Lines in the plan file that are not rows to tick.
 - When the student says they are lost: the step was too big. Halve it and try a different angle. Do not repeat it louder.
