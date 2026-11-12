@@ -29,7 +29,7 @@ No summary notes, no formula sheets. What you know about the course comes out in
 
 - **Problems are required.** Homework and/or exam problems from the course, ideally with solutions. With none, stop and ask, and say why: every decision below is made from them.
 - **Everything else is optional.** If solutions, the equation sheet, the syllabus or exam announcement, slides or the textbook are missing, say so once, in one line, and carry on.
-- **Ask one thing**: in how many days do they need to be able to solve these problems? Skip it if their message already says. Ask nothing else up front; exam date, format, coverage and allowed aids are in the files.
+- **Ask one thing**: in how many days do they need to be able to solve these problems? Skip it if their message already says. Ask nothing else up front; exam date, format, coverage and allowed aids are in the files. Take the student's goal as they mean it: "a 100-point level" means full marks, so do not correct it to the exam's real point total.
 
 ## 2. Read everything
 

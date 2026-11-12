@@ -106,7 +106,7 @@ These are the course's own problems, and they are where the plan earns its keep.
 - Name the problem and tell the student the conditions: closed-book, only what the exam allows, write the steps.
 - If the problem has sub-parts that need something not yet taught, say which parts to do now and when the rest will come.
 - **Grade to the exam's standard.** A small table works well: step, their answer, verdict. For each wrong line give the correct value.
-- **Find the root error.** Several wrong lines usually come from one mistake carried forward. Name that one mistake, say which lines were otherwise correct in method, and estimate the partial credit honestly.
+- **Find the root error.** Several wrong lines usually come from one mistake carried forward. Name that one mistake, say which lines were otherwise correct in method, and estimate the partial credit honestly, on the point scale of the student's own exam (from its cover sheet), not the practice exam's.
 - **Check the key before you trust it.** If the official solution is wrong, or solves a different version of the problem, tell the student which to believe.
 - Keep a running **redo list** of problems missed. It feeds the last rows of the plan.
 
