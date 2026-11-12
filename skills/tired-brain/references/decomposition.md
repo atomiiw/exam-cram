@@ -51,7 +51,17 @@ Every equation or idea that appears in some chain is in. Mark each one *on the s
 
 1. Go through the chains and write down, in a few words, the capability each step needs: "read direction and speed from a wave expression", "pick the right approximation for a lossy medium", "set up a null hypothesis from a word problem".
 2. Merge duplicates. What is left is the list of **items**. Name each one as a capability in two to five words. An item is the right size when it takes two to six 5-minute chunks to teach and at least one provided problem exercises it.
-3. Group items into three to six **blocks** that mirror how the exam is organised. If the practice exam has four problems on four topics, those are probably four of your blocks. Letter the blocks (A, B, C…) and number items inside them (A1, A2…).
+3. Group items into **blocks**, one per topic. Lean toward more, narrower blocks and items: a student ticks them off faster and always knows where they are. An exam problem that mixes two topics (say, a lossy material and a reflection at its surface) does not make them one block; the homework's own grouping is usually the better guide. Letter the blocks (A, B, C…) and number items inside them (A1, A2…).
+
+   A real example, from an exam with four problems on HW6–9 of an electromagnetics course. The second exam problem mixed lossy media with normal incidence, and they stayed separate blocks:
+
+   | Block | Items |
+   |---|---|
+   | A Plane waves | A1 read the wave · A2 E ↔ H · A3 polarization · A4 power flow |
+   | B Lossy media | B1 α, β, loss tangent · B2 skin depth and attenuation · B3 complex η and dissipation |
+   | C Normal incidence | C1 single interface · C2 three layers · C3 matching layers |
+   | D Oblique incidence | D1 Snell and Fresnel numbers · D2 field vectors · D3 Brewster angle |
+   | E Antennas | E1 short dipole · E2 pattern, directivity, beamwidth · E3 link budget |
 4. Order blocks and items by dependency. Inside a block, put the item with the fewest prerequisites first.
 
 The exam is the skeleton and the homework is the flesh. Blocks follow the exam's problems. Every step in every practice-exam chain must be covered by an item, or the student will meet something on the paper they were never taught. Every in-scope homework problem must sit under an item and appear in the plan as its own ✍️ row, because the examiner writes the exam from the same pool.
