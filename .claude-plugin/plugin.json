@@ -1,17 +1,9 @@
 {
-  "name": "course-todo",
-  "version": "1.3.0",
-  "description": "Shared Obsidian course-material workflow with cumulative todo and tailored textbook outputs, plus a cookie-authenticated read-only Canvas MCP.",
+  "name": "exam-cram",
+  "version": "2.0.0",
+  "description": "Turn a course's real homework and exam problems into a day-by-day study plan, then get tutored through it in 5-minute chunks with quizzes and timed mock exams.",
   "author": {
     "name": "atomiiw",
     "url": "https://github.com/atomiiw"
-  },
-  "mcpServers": {
-    "canvas": {
-      "command": "node",
-      "args": [
-        "${CLAUDE_PLUGIN_ROOT}/mcp/canvas-mcp.mjs"
-      ]
-    }
   }
 }

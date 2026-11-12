@@ -6,9 +6,9 @@
   },
   "plugins": [
     {
-      "name": "course-todo",
+      "name": "exam-cram",
       "source": "./",
-      "description": "Shared Obsidian course-material workflow with cumulative todo and tailored textbook outputs, plus a cookie-authenticated read-only Canvas MCP."
+      "description": "Turn a course's real homework and exam problems into a day-by-day study plan, then get tutored through it in 5-minute chunks with quizzes and timed mock exams."
     }
   ]
 }

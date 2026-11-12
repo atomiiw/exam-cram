@@ -1,57 +1,55 @@
-# Course Study — todos and tailored textbooks
+# Exam cram
 
-One Claude Code plugin for an Obsidian course workspace, with a shared materials opening and two referenced output workflows:
+A Claude skill for teaching yourself a course in the last few days before an exam.
 
-```text
-Obsidian folder + course context + existing materials
-                     │
-       readiness / requested Canvas collection
-                     │
-          ┌──────────┴──────────┐
-          │                     │
-       todo.md             textbook.md
-  deadlines + checkboxes   lecture-based teaching
+You give it the course's real problems. It works out what the exam will ask you to do, writes a short day-by-day plan, and then tutors you through that plan until every row is ticked.
+
+## What you give it
+
+- **Required**: homework problems and/or exam problems (problem sets, practice exams, past exams), ideally with solutions. Everything is built from these: how the course is cut up, which equations matter, what gets skipped.
+- **Optional**: lecture notes or slides, the textbook, the syllabus, the equation sheet, the exam announcement. It will remind you once if they are missing and carry on without them.
+- **Two answers**: how many days you are going to study, and in how many days you expect to be able to solve all of those problems yourself.
+
+## What you get
+
+**1. One plan file.** A markdown checklist, nothing else:
+
+```markdown
+# PHYS 201 · Midterm 2 Plan
+
+Exam: Fri 3/14, 10:00 am · 60 min · 4 problems · HW5–8, no relativity.
+
+### Wed 3/12
+
+| Item | Type | Topic | Done |
+|---|---|---|---|
+| HW5 Q4 | ✍️ | Speed of a wave in glass (A1) | ✅ |
+| A3 | 📚 | Polarization |  |
+| HW5 Q5 | ✍️ | Linear or circular |  |
 ```
 
-The single skill is named `course-study`, with todo and textbook functions under the same shared materials opening. The repository and plugin retain `course-todo` for the existing installation address. No second skill or repository is needed.
+📚 rows are lessons, ✍️ rows are the course's own problems done closed-book, and the last day holds timed mock exams.
+
+**2. A tutoring conversation.** Each lesson is a handful of 5-minute chunks. Every chunk is one picture that shows exactly one thing, a plain-language explanation, and a few one-line quiz questions. You answer, it grades, you move on. Homework problems and mock exams are graded the way the exam would grade them.
 
 ## Install
 
+In Claude Code:
+
 ```
-/plugin marketplace add atomiiw/course-todo
-/plugin install course-todo@atomiiw
+/plugin marketplace add atomiiw/exam-cram
+/plugin install exam-cram@atomiiw
 ```
 
-Requires Node.js for the bundled zero-dependency Canvas MCP.
+Or copy `skills/exam-cram/` into your skills folder.
 
 ## Use
 
-**Todo:** “Update my course todo through 9/25 — the folder is …”
-
-Uses the overview to locate courses and submission portals, verifies live deadlines, downloads referenced materials, and adds a cumulative Study/Submit batch without changing previous checkboxes.
-
-**Textbook:** “Generate the next ECE 270 textbook from the files in this Obsidian folder, through Lecture 7.”
-
-Consumes one course's existing lectures, readings, figures, homework, and previous chapters. If essential inputs are missing, it asks for them; it does not automatically resync Canvas. Output uses the original blue professor-note / green explanation callouts, lecture groups, and numbered study bites. Teaching follows the steps leading to the professor's equations and explains their implications. Homework privately prioritizes coverage; questions and solutions do not appear in the textbook. Earlier chapters are referenced instead of retaught.
-
-**Collect, then write:** “Download the latest ECE 270 materials into 资料, then generate the next textbook.”
-
-Runs the shared collection first, verifies files, then hands them to the textbook workflow. If both a todo and a textbook are requested, they reuse the collected materials.
-
-## Authentication
-
-The shared Canvas MCP uses the user's browser session cookie stored locally under `~/.canvas-mcp/cookies/`. Use stored cookies first unless the user requests otherwise. When missing/expired, guide the user through Chrome DevTools → Network → refresh → document request → Request Headers → cookie value, then use `set_cookie`. Credentials never belong in artifacts or this repository. Canvas operations are read-only; downloads and cookie storage are local writes.
-
-For other schools, set `CANVAS_HOST` in the MCP environment.
+> I have a thermo midterm on Friday and I haven't opened the book since the last one. Here are problem sets 5–8 and last year's exam. I can study three days.
 
 ## Structure
 
-- `skills/course-study/SKILL.md` — parent/router and shared opening
-- `skills/course-study/references/materials.md` — course mapping, scoped collection, cookie auth, download integrity
-- `skills/course-study/references/todo.md` — deadline channels, cumulative todo contract
-- `skills/course-study/references/textbook.md` — input/output boundary, teaching process, verification
-- `skills/course-study/references/textbook-style.md` — retained original structure and heading voice
-- `skills/course-study/assets/textbook-template.md` — native reusable Obsidian scaffold
-- `mcp/canvas-mcp.mjs` — existing shared Canvas tools, unchanged
-
-Personal course PDFs, textbook pictures, generated chapters, and credentials are not bundled. They stay in the user's Obsidian folder.
+- `skills/exam-cram/SKILL.md`: the workflow
+- `skills/exam-cram/references/decomposition.md`: reading the material, cutting it into blocks and items, scheduling
+- `skills/exam-cram/references/teaching.md`: the chunk format, pictures, quizzes, grading
+- `skills/exam-cram/assets/plan-template.md`: the plan file's structure
