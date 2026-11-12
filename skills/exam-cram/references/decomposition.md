@@ -64,10 +64,10 @@ Lecture material that no problem touches and the scope statement does not name i
 
 ## The first lesson
 
-The first thirty minutes decide whether the student stays. They end with the student solving, alone, a problem just like the first one on the exam, so build the lesson from that exam problem's chain and from nothing else.
+The first half hour decides whether the student stays. They end with the student solving, alone, a problem just like the first one on the exam, so build the lesson from that exam problem's chain and from nothing else.
 
 - Take the chain for practice exam problem 1. Each idea in it is one chunk, in the order the chain uses them. Merge two only when one is a single symbol.
-- **Six chunks at most.** If the chain has more, drop the ideas that only the last sub-part needs, and have the student solve the sub-parts the six reach.
+- That usually comes to around six chunks. It is an aim, not a cap: teach every idea the chain needs, one per chunk, and do not drop or merge ideas to reach a number.
 - Do not add what the chapter "starts with". If problem 1 never asks for a wavelength, wavelength waits.
 - Prerequisites the student has forgotten are taught inside the chunk that needs them, in two or three lines.
 - The lesson is item `A1`. The row after it is the problem they solve: a homework problem whose chain matches problem 1's, or, when none matches closely enough, a twin you write (`A1 drill`) with the same sub-parts and different numbers and directions.

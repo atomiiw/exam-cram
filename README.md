@@ -23,7 +23,7 @@ Exam cram is a Claude skill for problem-solving courses like physics, math and e
 >
 > **Claude:** All three right. Next is Chunk 3, frequency and speed.
 
-Six of these, at most, and then you do a problem just like problem 1 of your exam.
+A handful of these, and then you do a problem just like problem 1 of your exam.
 
 ## The plan it writes
 

@@ -6,7 +6,7 @@ Contents: a chunk · worked example of a chunk · the picture · the explanation
 
 A lesson item (📚 row) is taught as a short series of chunks. One chunk is about five minutes of the student's attention and carries **one idea**: usually one equation or one rule that a problem needs. Before teaching an item, list its chunks, one idea each, in an order where each needs only the ones before it. If the environment has a task list, show the chunk list there so the student sees progress.
 
-The first item is special: at most six chunks, built from what problem 1 of the practice exam needs, and it ends with the student solving a problem of the same kind, a matching homework problem or a twin you write (see `decomposition.md`, "The first lesson"). Exam papers themselves are never used while learning; examples and twins you write must not copy an exam problem's numbers.
+The first item is special: it is built only from what problem 1 of the practice exam needs (usually around six chunks), and it ends with the student solving a problem of the same kind, a matching homework problem or a twin you write (see `decomposition.md`, "The first lesson"). Exam papers themselves are never used while learning; examples and twins you write must not copy an exam problem's numbers.
 
 Every chunk has the same four parts, in this order:
 
