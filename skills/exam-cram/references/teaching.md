@@ -6,7 +6,7 @@ Contents: a chunk · worked example of a chunk · the picture · the explanation
 
 A lesson item (📚 row) is taught as a short series of chunks. One chunk is about five minutes of the student's attention and carries **one idea**: usually one equation or one rule that a problem needs. Before teaching an item, list its chunks, one idea each, in an order where each needs only the ones before it. If the environment has a task list, show the chunk list there so the student sees progress.
 
-The first item is special: at most six chunks, built from what problem 1 of the practice exam needs, and it ends with the student solving that problem (see `decomposition.md`, "The first lesson").
+The first item is special: at most six chunks, built from what problem 1 of the practice exam needs, and it ends with the student solving a problem of the same kind, a matching homework problem or a twin you write (see `decomposition.md`, "The first lesson"). Exam papers themselves are never used while learning; examples and twins you write must not copy an exam problem's numbers.
 
 Every chunk has the same four parts, in this order:
 
@@ -102,7 +102,6 @@ These are the course's own problems, and they are where the plan earns its keep.
 - Before: state the conditions exactly as the real exam's cover sheet does (time, aids), and that they should not look at the solutions.
 - During: stay out of the way.
 - After: grade every part to the exam's standard and give a score. Then go through every lost point: the root error, the correct working, and which item it belongs to. A lost point that traces back to an item sends that item's problems onto the redo list.
-- The official practice exam is sat in full even though problem 1 was done on day one; by now it is a retrieval check.
 - The second mock exam is one you write: same number of problems, same style and length, same blocks, different numbers and set-ups. Do not reuse homework problems in it.
 
 ## When the student is lost

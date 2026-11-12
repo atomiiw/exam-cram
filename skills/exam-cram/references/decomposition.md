@@ -64,15 +64,16 @@ Lecture material that no problem touches and the scope statement does not name i
 
 ## The first lesson
 
-The first thirty minutes decide whether the student stays. They end with the student solving problem 1 of the practice exam alone, so build the lesson from that problem's chain and from nothing else.
+The first thirty minutes decide whether the student stays. They end with the student solving, alone, a problem just like the first one on the exam, so build the lesson from that exam problem's chain and from nothing else.
 
-- Take the chain for problem 1. Each idea in it is one chunk, in the order the chain uses them. Merge two only when one is a single symbol.
+- Take the chain for practice exam problem 1. Each idea in it is one chunk, in the order the chain uses them. Merge two only when one is a single symbol.
 - **Six chunks at most.** If the chain has more, drop the ideas that only the last sub-part needs, and have the student solve the sub-parts the six reach.
 - Do not add what the chapter "starts with". If problem 1 never asks for a wavelength, wavelength waits.
 - Prerequisites the student has forgotten are taught inside the chunk that needs them, in two or three lines.
-- The lesson is item `A1`. The row after it is `Practice exam P1`, done closed-book with what the exam allows.
+- The lesson is item `A1`. The row after it is the problem they solve: a homework problem whose chain matches problem 1's, or, when none matches closely enough, a twin you write (`A1 drill`) with the same sub-parts and different numbers and directions.
+- The exam problem itself is not shown, quoted or solved. It stays unseen for mock day.
 
-With no practice exam, use the homework problem that looks most like an exam problem and comes earliest in the material.
+With no practice exam, aim the lesson at the homework problem that looks most like an exam problem and comes earliest in the material, and have the student solve a twin of it.
 
 ## What to keep in your head for each item
 
@@ -92,10 +93,11 @@ In a long engagement your context may be summarised. The source files remain; re
 Inputs: the items, the problems, the number of days the student gave you, and the exam date.
 
 - **Estimate the load.** A lesson item is two to six chunks of about five minutes plus the student's answering time; call it 15–30 minutes. A homework problem done closed-book is 5–20 minutes plus grading. Add them up per day and keep a day to what the student can actually do. When they have not said, assume around three hours.
+- **Exam papers appear only on mock day.** ✍️ rows before that are homework problems, textbook or slide problems, or problems you write. Never a practice-exam or past-exam problem, in whole or in part.
 - **Each lesson row is followed by its problems.** Learning A3 and then immediately solving the homework problem on A3 is what turns "I followed that" into "I can do that".
 - **Open each day with yesterday.** Hold back one or two problems from the previous day's last items and make them the first rows of the next day. Retrieving after a night's sleep is what makes it stick, and it shows both of you whether it did.
 - **End with mock exams.** Reserve the last study day (roughly the last third when there are three days or fewer) for full timed exams:
-  - the official practice exam under real conditions (problem 1 was done on day one; the rest is unseen)
+  - the official practice exam, unseen until then, under real conditions
   - a review row: grade it, fix every lost point
   - a second mock exam that you write in the same style, covering the same blocks with different numbers and set-ups
   - a review row for that one
@@ -103,7 +105,7 @@ Inputs: the items, the problems, the number of days the student gave you, and th
 - **Exam morning** is one short review row: missed problems and the must-know list. No new problems.
 - **Fewer days than there are until the exam.** If the student's number of days runs out before the exam, the lesson rows and their problems end on that day, and the days after it hold the mock exams and the redo list.
 
-If there is only one exam-style document and no homework, use its problem 1 for the first lesson, write your own practice problems for the other ✍️ rows modelled on its problems, and keep the rest of it for the timed run.
+If there is only one exam-style document and no homework, do not burn it: write your own practice problems for the ✍️ rows, modelled on its problems, and keep the original for the timed run.
 
 ## When it does not fit
 
