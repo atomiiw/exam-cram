@@ -6,7 +6,7 @@ It's midnight. The exam is in four days. Last time you studied, you chewed throu
 
 Skip the textbook. Hand Claude your homework. It hunts down the only equations your exam uses and feeds them to you in five-minute bites: one picture, three plain sentences, three easy questions.
 
-You just follow along and it soaks in like osmosis. Thirty minutes in, you solve problem 1. By exam day, there is nothing on the paper you haven't already solved.
+You just follow along and it soaks in like osmosis. Thirty minutes in, you solve problem 1 on the exam. By exam day, there is nothing on the paper you haven't already solved.
 
 For problem-solving courses: physics, math, engineering, chem, stats, econ.
 
@@ -31,7 +31,7 @@ For problem-solving courses: physics, math, engineering, chem, stats, econ.
 >
 > **Claude:** All three right. Next is Chunk 3, frequency and speed.
 
-That's it. That's the whole experience. A handful of bites later, your Tired Brain solves problem 1.
+That's it. That's the whole experience. A handful of bites later, your Tired Brain solves problem 1 on the exam.
 
 ## Your whole week on one page
 
