@@ -14,7 +14,9 @@ Exam: {{weekday date, time}} · {{length}} · {{number of problems}} · {{covera
 
 Each row is one thing to finish, in order. 📚 rows are lesson chunks. ✍️ rows are homework problems, or problems written for you, done closed-book with {{what the exam allows}}. **Exam** rows are timed, {{length}}, full exam conditions.
 
-Skipped on purpose: {{problems or topics left out, each with a two-word reason}}.
+Covered: every problem in {{the homework sets in scope, e.g. HW6–9}} has its own ✍️ row.
+
+Skipped on purpose: {{each problem or sub-part left out, with a two-word reason; write "nothing" if none}}.
 
 ### {{Weekday M/D}}
 

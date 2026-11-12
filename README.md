@@ -2,7 +2,7 @@
 
 **Built for the Tired Brain.**
 
-It's midnight, the exam is in four days, and you haven't touched this course since the last midterm. Hand Claude your homework and it hunts down the only equations your exam actually uses, then feeds them to your Tired Brain one five-minute bite at a time: one picture, three plain sentences, three questions you could answer half asleep. Thirty minutes later you are solving a problem just like the first one on your exam, and you never once had to figure out what to study.
+It's midnight, the exam is in four days, and you haven't touched this course since the last midterm. Hand Claude your homework and it hunts down the only equations your exam actually uses, then feeds them to your Tired Brain one five-minute bite at a time: one picture, three plain sentences, three questions you could answer half asleep. Thirty minutes later you solve a problem just like the first one on your exam, and by exam day you have done every homework problem it could be drawn from, without once deciding what to study.
 
 For problem-solving courses: physics, math, engineering, chem, stats, econ.
 
@@ -41,7 +41,7 @@ That's it. That's the whole experience. A handful of bites later, your Tired Bra
 | HW5 Q5 | ✍️ | Linear or circular |  |
 ```
 
-📚 is a lesson. ✍️ is one of your homework problems, done closed-book. Every homework problem the exam can draw on is a row. The practice exam stays sealed until the last day, when you sit it timed.
+📚 is a lesson. ✍️ is one of your homework problems, done closed-book. Every homework problem the exam can draw on gets a row, and the plan lists the few it skips and why. The practice exam stays sealed until the last day, when you sit it timed.
 
 ## What you hand over
 

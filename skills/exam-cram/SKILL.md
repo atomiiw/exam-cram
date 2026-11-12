@@ -59,7 +59,8 @@ This lesson is item `A1`, and the matching problem is the ✍️ row right after
 
 Copy [assets/plan-template.md](assets/plan-template.md) exactly.
 
-- A title, one line of exam facts, the blocks table, a short legend, one table per day. Nothing else: no front matter, no formulas, no method, no sources, no encouragement.
+- A title, one line of exam facts, the blocks table, a short legend, the Covered and Skipped lines, one table per day. Nothing else: no front matter, no formulas, no method, no sources, no encouragement.
+- **Covered** and **Skipped on purpose** are always both there. Together they account for every homework problem in the files, so the student can see at a glance which are in and which are out and why. If nothing is skipped, write "Skipped on purpose: nothing."
 - Rows are parallel and in the order they will be done. 📚 is a lesson item. ✍️ is a homework, textbook or written-for-you problem solved closed-book, named by its real identifier (`HW7 Q3`, `A1 drill`). `Exam` is a timed full exam. Done is empty, then ✅.
 - Each lesson row is followed by its problems. Each day opens with one or two problems from the day before. The last study day is the practice exam timed and unseen, its review, a second mock you write, its review, and a redo of every missed problem.
 - Saved next to the course materials, named for the exam (`Midterm 2 Plan.md`).
