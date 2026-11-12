@@ -1,10 +1,10 @@
 # Tired Brain
 
-It's midnight. The exam is in four days. Last time you studied, you chewed through fifty slides and still couldn't start one homework problem.
+It's midnight. The exam is in four days. Last time you studied, you chewed through fifty slides and still couldn't start a single homework problem.
 
 Skip the textbook. Hand Claude your homework. It hunts down the only equations your exam uses and feeds them to you in five-minute bites: one picture, three plain sentences, three easy questions.
 
-You just follow along and it soaks in like osmosis. 30 minutes in, you can already solve problem 1 on the exam.
+You just follow along, and it soaks in by osmosis. 30 minutes in, you can already solve problem 1 on the exam.
 
 ## One bite
 
