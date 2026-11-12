@@ -60,7 +60,7 @@ In a long engagement your context may be summarised. The source files remain; re
 
 ## Scheduling
 
-Inputs: the items, the problems, the two numbers the student gave you (days of study, days until they want to have mastered the problems), and the exam date.
+Inputs: the items, the problems, the number of days the student gave you, and the exam date.
 
 - **Estimate the load.** A lesson item is two to six chunks of about five minutes plus the student's answering time; call it 15–30 minutes. A homework problem done closed-book is 5–20 minutes plus grading. Add them up per day and keep a day to what the student can actually do. When they have not said, assume around three hours.
 - **Each lesson row is followed by its problems.** Learning A3 and then immediately solving the homework problem on A3 is what turns "I followed that" into "I can do that".
@@ -72,7 +72,7 @@ Inputs: the items, the problems, the two numbers the student gave you (days of s
   - a review row for that one
   - a redo row: every ✍️ problem that was missed earlier, done again
 - **Exam morning** is one short review row: missed problems and the must-know list. No new problems.
-- **Mastery target earlier than the exam.** If the student wants to have mastered the problems some days before the exam, the lesson rows and their problems end on the mastery day, and the days after it hold the mock exams and the redo list.
+- **Fewer days than there are until the exam.** If the student's number of days runs out before the exam, the lesson rows and their problems end on that day, and the days after it hold the mock exams and the redo list.
 
 If there is only one exam-style document and no homework, do not burn it: write your own practice problems for the ✍️ rows, modelled on its problems, and keep the original for the timed run.
 

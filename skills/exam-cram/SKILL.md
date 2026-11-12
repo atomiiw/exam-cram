@@ -31,10 +31,7 @@ The student is behind and often discouraged. Long explanations and pages of form
 - the syllabus, schedule or exam announcement (exact scope, exclusions, format)
 - lecture notes, slides, the textbook (the course's notation and the explanations to lean on)
 
-**Ask the student exactly two things**, because nothing in the files can answer them:
-
-- How many days are they going to study for this?
-- In how many days do they expect to be able to solve all of these problems on their own?
+**Ask the student exactly one thing**, because nothing in the files can answer it: in how many days do they want to be able to solve all of these problems on their own? If their message already says it ("exam on Monday, I have five days"), do not ask.
 
 Do not ask anything else up front. Exam date, format, coverage and allowed aids are almost always in the materials; find them there. Their background shows itself in the first chunk. Their calculator matters only when the first calculation needs it, so ask then.
 
