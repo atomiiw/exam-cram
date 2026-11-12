@@ -1,7 +1,7 @@
 {
-  "name": "exam-cram",
-  "version": "2.0.0",
-  "description": "Turn a course's real homework and exam problems into a day-by-day study plan, then get tutored through it in 5-minute chunks with quizzes and timed mock exams.",
+  "name": "tired-brain",
+  "version": "3.0.0",
+  "description": "Skip the textbook. Claude hunts down the only equations your exam uses and teaches them five minutes at a time, so 30 minutes in you can already solve problem 1 on the exam.",
   "author": {
     "name": "atomiiw",
     "url": "https://github.com/atomiiw"

@@ -1,6 +1,4 @@
-# Exam cram
-
-**Built for the Tired Brain.**
+# Tired Brain
 
 It's midnight. The exam is in four days. Last time you studied, you chewed through fifty slides and still couldn't start one homework problem.
 
@@ -54,6 +52,6 @@ That's the whole experience.
 ## Install
 
 ```
-/plugin marketplace add atomiiw/exam-cram
-/plugin install exam-cram@atomiiw
+/plugin marketplace add atomiiw/tired-brain
+/plugin install tired-brain@atomiiw
 ```
