@@ -39,7 +39,9 @@ Every problem and every solution in full, then the exam-facing documents (practi
 
 For each exam problem, then each homework problem, write out for yourself the chain that solves it: what is given, which equation turns it into what, down to the answer. The equations and ideas that appear in those chains are the whole course as far as this student is concerned. For each one note whether the exam hands it out or it must be known. Whatever no chain uses is not taught.
 
-Group the chains into **items** (one capability each, two to five words, `A1`, `A2`…) and the items into a few **blocks** that mirror the exam's problems. Every in-scope problem belongs to one item; every item has a problem to practise on. Details: [references/decomposition.md](references/decomposition.md).
+Group the chains into **items** (one capability each, two to five words, `A1`, `A2`…) and the items into a few **blocks**. The exam's problems are the skeleton: one block per exam problem or topic area, and every step of every exam problem's chain is covered by some item. Every in-scope homework problem is then hung on that skeleton: it belongs to one item and gets its own ✍️ row. Details: [references/decomposition.md](references/decomposition.md).
+
+The promise of the plan is that a student who finishes every row has solved every homework problem in scope and can do every kind of problem on the exam. Before you show it, audit it: list every in-scope problem and sub-part from the files, and check that each is a ✍️ row or is named on the skipped line with its reason. Nothing is left out silently.
 
 ## 4. The first 30 minutes
 

@@ -54,9 +54,13 @@ Every equation or idea that appears in some chain is in. Mark each one *on the s
 3. Group items into three to six **blocks** that mirror how the exam is organised. If the practice exam has four problems on four topics, those are probably four of your blocks. Letter the blocks (A, B, C…) and number items inside them (A1, A2…).
 4. Order blocks and items by dependency. Inside a block, put the item with the fewest prerequisites first.
 
-Then run the coverage check in both directions:
+The exam is the skeleton and the homework is the flesh. Blocks follow the exam's problems. Every step in every practice-exam chain must be covered by an item, or the student will meet something on the paper they were never taught. Every in-scope homework problem must sit under an item and appear in the plan as its own ✍️ row, because the examiner writes the exam from the same pool.
 
-- **Every in-scope problem maps to an item.** A problem that maps to nothing means an item is missing.
+Then run the coverage check in every direction, on paper, before writing the plan:
+
+- **Every step of every exam problem's chain maps to an item.**
+
+- **Every in-scope homework problem and sub-part maps to an item and becomes a ✍️ row.** A problem that maps to nothing means an item is missing. Go down the problem sets one number at a time; do not rely on memory of what was in them.
 - **Every item has a problem.** If no provided problem exercises an item, either it is not really needed (drop it) or the scope statement names it explicitly (keep it and plan to write a drill yourself).
 - **Everything left out is named.** Problems that are out of scope or not exam-like (plotting assignments, coding exercises on a paper exam, excluded topics) go on the plan's "Skipped on purpose" line with a two-word reason, so the student can see it was a decision.
 
@@ -115,5 +119,7 @@ Say so plainly, with numbers: "there are 16 items and about 14 hours of work, an
 2. Keep prerequisites of anything you keep.
 3. Shrink before dropping: an item can be taught as one recipe chunk plus one problem.
 4. Put what was dropped on the "Skipped on purpose" line.
+
+Full coverage is the default. Cutting is only for when the days truly cannot hold the work, and the student has to hear it before the plan is written: which problems will not be covered and what that risks.
 
 Do not solve a time problem by making days longer than the student said they have, or by removing the mock exam. One timed run is worth more than the last two items.
