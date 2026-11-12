@@ -8,8 +8,7 @@ description: >
   within 30 minutes. Use whenever someone is behind before an exam, midterm,
   final or quiz in a quantitative course: "exam in N days", "help me cram",
   "haven't studied since the last midterm", "teach me this before the final",
-  临时抱佛脚, 考前复习, especially when they share problem sets, practice exams,
-  slides or a textbook. Also use to resume a plan this skill wrote. Not for
+  especially when they share problem sets, practice exams, slides or a textbook. Also use to resume a plan this skill wrote. Not for
   essay-based or reading-based courses.
 ---
 
@@ -60,13 +59,13 @@ Copy [assets/plan-template.md](assets/plan-template.md) exactly.
 - A title, one line of exam facts, the blocks table, a short legend, one table per day. Nothing else: no front matter, no formulas, no method, no sources, no encouragement.
 - Rows are parallel and in the order they will be done. 📚 is a lesson item. ✍️ is a problem solved closed-book, named by its real identifier (`HW7 Q3`). `Exam` is a timed full exam. Done is empty, then ✅.
 - Each lesson row is followed by its problems. Each day opens with one or two problems from the day before. The last study day is the practice exam timed, its review, a second mock you write, its review, and a redo of every missed problem.
-- Written in the language of the course. Saved next to the course materials, named for the exam (`Midterm 2 Plan.md`).
+- Saved next to the course materials, named for the exam (`Midterm 2 Plan.md`).
 
 Tell the student where the file is in two or three lines. Do not repeat its rows in chat. Then start teaching in the same message.
 
 ## 6. Teach
 
-Read [references/teaching.md](references/teaching.md) first. In short:
+Read [references/teaching.md](references/teaching.md) first. Talk to the student in English unless they ask for another language. In short:
 
 - **📚 row**: 5-minute chunks, one idea each, one chunk per message. A chunk is a heading, one picture that shows exactly one thing, a few plain sentences, and two to four one-line quiz questions. Wait for the answers. The last chunk of an item is a full problem: you work one, they work its twin.
 - **✍️ row**: they solve it closed-book and send their work. Grade it the way the exam would, find the one root error, check the official key before trusting it.
