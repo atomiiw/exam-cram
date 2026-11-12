@@ -12,7 +12,7 @@ Exam: {{weekday date, time}} · {{length}} · {{number of problems}} · {{covera
 
 ## {{N}}-day plan
 
-Each row is one thing to finish, in order. 📚 rows are lesson chunks. ✍️ rows are homework problems done closed-book with {{what the exam allows}}. **Exam** rows are timed, {{length}}, full exam conditions.
+Each row is one thing to finish, in order. 📚 rows are lesson chunks. ✍️ rows are homework and exam problems done closed-book with {{what the exam allows}}. **Exam** rows are timed, {{length}}, full exam conditions.
 
 Skipped on purpose: {{problems or topics left out, each with a two-word reason}}.
 
@@ -20,8 +20,10 @@ Skipped on purpose: {{problems or topics left out, each with a two-word reason}}
 
 | Item | Type | Topic | Done |
 |---|---|---|---|
-| A1 | 📚 | {{capability, 2–5 words}} |  |
-| A2 | 📚 | {{capability}} |  |
+| A1 | 📚 | {{what practice exam problem 1 needs, 2–5 words}} |  |
+| {{Practice exam P1}} | ✍️ | {{what the problem is about}} |  |
+| A2 | 📚 | {{capability, 2–5 words}} |  |
+| {{HW1 Q3}} | ✍️ | {{what the problem is about}} |  |
 
 ### {{Weekday M/D}}
 
@@ -38,7 +40,7 @@ Skipped on purpose: {{problems or topics left out, each with a two-word reason}}
 
 | Item | Type | Topic | Done |
 |---|---|---|---|
-| {{Practice exam P1–P4}} | Exam | Official practice exam |  |
+| {{Practice exam P1–P4}} | Exam | Official practice exam, timed |  |
 | Practice exam review | 📚 | Grade it, fix every lost point |  |
 | {{Mock exam 2 P1–P4}} | Exam | Second mock exam |  |
 | Mock exam 2 review | 📚 | Grade it, fix every lost point |  |

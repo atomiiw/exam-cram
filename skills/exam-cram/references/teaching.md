@@ -4,7 +4,9 @@ Contents: a chunk · worked example of a chunk · the picture · the explanation
 
 ## A chunk
 
-A lesson item (📚 row) is taught as a short series of chunks. One chunk is about five minutes of the student's attention and carries **one idea**. Before teaching an item, list its chunks, one idea each, in an order where each needs only the ones before it. If the environment has a task list, show the chunk list there so the student sees progress.
+A lesson item (📚 row) is taught as a short series of chunks. One chunk is about five minutes of the student's attention and carries **one idea**: usually one equation or one rule that a problem needs. Before teaching an item, list its chunks, one idea each, in an order where each needs only the ones before it. If the environment has a task list, show the chunk list there so the student sees progress.
+
+The first item is special: at most six chunks, built from what problem 1 of the practice exam needs, and it ends with the student solving that problem (see `decomposition.md`, "The first lesson").
 
 Every chunk has the same four parts, in this order:
 
@@ -45,9 +47,8 @@ The picture exists so the student can see the idea before reading about it. It w
 
 - **One thing per picture.** A wave with its wavelength marked. Two boxes with an arrow between them. Three perpendicular arrows. If you want to label a second idea, that is the next chunk.
 - **Few labels, and the same symbols the course uses.** At most one short formula line under the drawing.
-- **Draw the thing, not a diagram about the thing**, wherever the idea has a shape: a wave, a circuit, a force on a block, a supply curve shifting, a timeline, two cases side by side. For a procedure, a row of three or four boxes is the picture.
+- **Draw the thing, not a diagram about the thing**, wherever the idea has a shape: a wave, a circuit, a force on a block, a supply curve shifting, two cases side by side. For a procedure, a row of three or four boxes is the picture.
 - **Use whatever the environment can render**: an inline SVG or diagram tool, an artifact, an image. Fall back to a small text diagram only when nothing can be rendered. Do not skip the picture because the idea "is simple"; simple ideas are exactly the ones a picture nails.
-- For subjects without formulas the picture is still one thing: a timeline with one turning point, a two-column contrast, one labelled structure, one cause-and-effect arrow.
 
 ## The explanation
 
@@ -101,6 +102,7 @@ These are the course's own problems, and they are where the plan earns its keep.
 - Before: state the conditions exactly as the real exam's cover sheet does (time, aids), and that they should not look at the solutions.
 - During: stay out of the way.
 - After: grade every part to the exam's standard and give a score. Then go through every lost point: the root error, the correct working, and which item it belongs to. A lost point that traces back to an item sends that item's problems onto the redo list.
+- The official practice exam is sat in full even though problem 1 was done on day one; by now it is a retrieval check.
 - The second mock exam is one you write: same number of problems, same style and length, same blocks, different numbers and set-ups. Do not reuse homework problems in it.
 
 ## When the student is lost

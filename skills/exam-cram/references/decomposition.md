@@ -1,6 +1,6 @@
 # Reading the material, cutting it up, scheduling it
 
-Contents: reading · facts to pin down · blocks and items · what to keep in your head · scheduling · when it does not fit
+Contents: reading · facts to pin down · solution chains · blocks and items · the first lesson · what to keep in your head · scheduling · when it does not fit
 
 ## Reading
 
@@ -28,11 +28,28 @@ From the materials, not from the student, unless the materials are silent:
 
 If the scope is stated in terms of homework ("covers HW6–9"), that is the scope. If two sources disagree, the most recent announcement wins; tell the student which one you used.
 
+## Solution chains
+
+This is the step that decides what the student learns, so do it problem by problem, not from memory of the subject.
+
+For each exam problem and then each homework problem, write the chain that solves it:
+
+```
+Practice exam P1(a)  given E = x̂ 10 e^(−j20πz), f = 1.5 GHz
+  sign of exponent           -> direction +z            (must know)
+  ω = 2πf, v = ω/β           -> v = 1.5e8 m/s           (v = ω/β: must know)
+P1(b)  v = c/√εr             -> εr = 4                  (on sheet as v = 1/√(με))
+P1(c)  η = 377/√εr, H = E/η, E × H along travel -> H    (377 Ω: must know)
+P1(d)  S = |E|²/2η           -> 0.27 W/m²               (sheet gives the general form)
+```
+
+Every equation or idea that appears in some chain is in. Mark each one *on the sheet* or *must know*. Everything that appears in no chain is out, even when the lectures spend an hour on it. The student should never be taught an equation you cannot point to a problem for.
+
 ## Blocks and items
 
-**Start from one exam problem and ask what the solver had to be able to do.** A typical exam problem chains three or four capabilities. Those capabilities are your items.
+**A typical exam problem chains three or four capabilities. Those capabilities are your items.**
 
-1. Go through every in-scope problem and sub-part and write down, in a few words, the capability it tests: "read direction and wavelength from a wave expression", "pick the right approximation for a lossy medium", "set up a null hypothesis from a word problem".
+1. Go through the chains and write down, in a few words, the capability each step needs: "read direction and speed from a wave expression", "pick the right approximation for a lossy medium", "set up a null hypothesis from a word problem".
 2. Merge duplicates. What is left is the list of **items**. Name each one as a capability in two to five words. An item is the right size when it takes two to six 5-minute chunks to teach and at least one provided problem exercises it.
 3. Group items into three to six **blocks** that mirror how the exam is organised. If the practice exam has four problems on four topics, those are probably four of your blocks. Letter the blocks (A, B, C…) and number items inside them (A1, A2…).
 4. Order blocks and items by dependency. Inside a block, put the item with the fewest prerequisites first.
@@ -45,12 +62,24 @@ Then run the coverage check in both directions:
 
 Lecture material that no problem touches and the scope statement does not name is not taught. A cramming student cannot afford it, and the problems are the best evidence of what the examiner cares about.
 
+## The first lesson
+
+The first thirty minutes decide whether the student stays. They end with the student solving problem 1 of the practice exam alone, so build the lesson from that problem's chain and from nothing else.
+
+- Take the chain for problem 1. Each idea in it is one chunk, in the order the chain uses them. Merge two only when one is a single symbol.
+- **Six chunks at most.** If the chain has more, drop the ideas that only the last sub-part needs, and have the student solve the sub-parts the six reach.
+- Do not add what the chapter "starts with". If problem 1 never asks for a wavelength, wavelength waits.
+- Prerequisites the student has forgotten are taught inside the chunk that needs them, in two or three lines.
+- The lesson is item `A1`. The row after it is `Practice exam P1`, done closed-book with what the exam allows.
+
+With no practice exam, use the homework problem that looks most like an exam problem and comes earliest in the material.
+
 ## What to keep in your head for each item
 
 None of this goes in the plan file. It is what you draw on while teaching:
 
-- the problems that exercise the item, and which is the simplest to demonstrate on
-- the formulas involved, split into *given on the exam* and *must be known*
+- the problems that exercise the item and their chains, and which is the simplest to demonstrate on
+- the equations involved, split into *on the sheet* and *must know*
 - the prerequisite ideas the student will be missing, to teach at the moment of need
 - the course's notation and sign conventions for this topic
 - the traps visible in the solutions (a sign that flips, amplitude versus power, a unit conversion)
@@ -66,7 +95,7 @@ Inputs: the items, the problems, the number of days the student gave you, and th
 - **Each lesson row is followed by its problems.** Learning A3 and then immediately solving the homework problem on A3 is what turns "I followed that" into "I can do that".
 - **Open each day with yesterday.** Hold back one or two problems from the previous day's last items and make them the first rows of the next day. Retrieving after a night's sleep is what makes it stick, and it shows both of you whether it did.
 - **End with mock exams.** Reserve the last study day (roughly the last third when there are three days or fewer) for full timed exams:
-  - the official practice exam, unseen until then, under real conditions
+  - the official practice exam under real conditions (problem 1 was done on day one; the rest is unseen)
   - a review row: grade it, fix every lost point
   - a second mock exam that you write in the same style, covering the same blocks with different numbers and set-ups
   - a review row for that one
@@ -74,7 +103,7 @@ Inputs: the items, the problems, the number of days the student gave you, and th
 - **Exam morning** is one short review row: missed problems and the must-know list. No new problems.
 - **Fewer days than there are until the exam.** If the student's number of days runs out before the exam, the lesson rows and their problems end on that day, and the days after it hold the mock exams and the redo list.
 
-If there is only one exam-style document and no homework, do not burn it: write your own practice problems for the ✍️ rows, modelled on its problems, and keep the original for the timed run.
+If there is only one exam-style document and no homework, use its problem 1 for the first lesson, write your own practice problems for the other ✍️ rows modelled on its problems, and keep the rest of it for the timed run.
 
 ## When it does not fit
 

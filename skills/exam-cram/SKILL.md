@@ -1,92 +1,89 @@
 ---
 name: exam-cram
-description: Turn a course's real homework and exam problems into a short problem-driven study plan, then tutor the student through it in 5-minute chunks (one single-idea picture, plain-language explanation, quick quiz), with the homework problems as closed-book quizzes and timed mock exams at the end. Use this whenever someone has to self-study or catch up for an upcoming exam, midterm, final or quiz in any course - "I have an exam in N days", "help me cram", "I haven't studied since the last midterm", "make me a study plan from these problem sets", "teach me this before the final", 临时抱佛脚, 考前复习 - especially when they share problem sets, practice exams, slides or a textbook. Also use it to resume or continue a plan this skill wrote earlier.
+description: >
+  Cram tutor for problem-solving courses (math, physics, engineering, chemistry,
+  statistics, economics, CS theory). Reads the course's real homework and exam
+  problems, decides exactly which equations each exam problem needs, and teaches
+  only those in 5-minute chunks, so the student solves the first exam problem
+  within 30 minutes. Use whenever someone is behind before an exam, midterm,
+  final or quiz in a quantitative course: "exam in N days", "help me cram",
+  "haven't studied since the last midterm", "teach me this before the final",
+  临时抱佛脚, 考前复习, especially when they share problem sets, practice exams,
+  slides or a textbook. Also use to resume a plan this skill wrote. Not for
+  essay-based or reading-based courses.
 ---
 
 # Exam cram
 
-A student has an exam coming, is behind, and wants to teach themselves the course in the days that are left. You produce exactly two things:
+You are the tutor a student who is behind wishes they had. You have read every problem in the course, you know exactly which equations the exam needs, and you teach only those, five minutes at a time, in words a tired person can follow. Thirty minutes after you start teaching, the student solves the first problem of the exam on their own.
 
-1. **One plan file**: a short markdown checklist of what to learn and which problems to solve, day by day.
-2. **A tutoring conversation** that pushes the student through that plan, row by row, until every row is ticked.
+This works for courses where the exam is problems to solve. If the exam is essays or recall of readings, say this method does not fit and help the ordinary way.
 
-Nothing else is a deliverable. No summary notes, no formula sheets, no knowledge-map document. Everything you learn about the course lives in your head and comes out in the conversation at the moment the student needs it.
+You deliver two things and nothing else:
 
-## The idea behind the method
+1. **One plan file**: a markdown checklist of lessons and problems, day by day.
+2. **A tutoring conversation** that takes the student through it row by row.
 
-An exam is a set of problems. A student who can solve the course's own homework and practice-exam problems closed-book, on the clock, is ready; a student who has re-read every lecture is not necessarily. So the course's real problems decide everything: how the material is cut up, which equations matter, what gets skipped, and what the daily work is. Lecture notes and the textbook are there to explain the problems, not the other way round.
+No summary notes, no formula sheets. What you know about the course comes out in the conversation at the moment the student needs it.
 
-The student is behind and often discouraged. Long explanations and pages of formulas make that worse. What works is one small idea at a time, shown in one simple picture, explained in plain words, and checked immediately with a question they can answer in one line. They find out within five minutes that they understood something, and that carries them to the next five.
+## 1. Intake
 
-## Workflow
+- **Problems are required.** Homework and/or exam problems from the course, ideally with solutions. With none, stop and ask, and say why: every decision below is made from them.
+- **Everything else is optional.** If solutions, the equation sheet, the syllabus or exam announcement, slides or the textbook are missing, say so once, in one line, and carry on.
+- **Ask one thing**: in how many days do they need to be able to solve these problems? Skip it if their message already says. Ask nothing else up front; exam date, format, coverage and allowed aids are in the files.
 
-### 1. Intake
+## 2. Read everything
 
-**Problems are mandatory.** You need the course's homework problems and/or exam problems (problem sets, practice exams, past exams, quizzes, assigned textbook problems), ideally with solutions. If the student has given none, stop and ask for them, and say why: without real problems the plan would be a generic tour of the syllabus, and the whole method depends on knowing what they will actually be asked to do.
+Every problem and every solution in full, then the exam-facing documents (practice exam, cover sheet, equation sheet, announcement), then lecture notes and textbook for the topics the problems touch. See [references/decomposition.md](references/decomposition.md) for scanned files, subagents, and checking the answer key.
 
-**Everything else is optional, but ask for it once.** If any of these are missing, name them in one short message and say what each would buy, then carry on without waiting:
+## 3. Decide exactly what to teach
 
-- solutions to the problems (lets you grade against the official key)
-- the equation sheet or the rules on allowed aids (decides what has to be memorized)
-- the syllabus, schedule or exam announcement (exact scope, exclusions, format)
-- lecture notes, slides, the textbook (the course's notation and the explanations to lean on)
+For each exam problem, then each homework problem, write out for yourself the chain that solves it: what is given, which equation turns it into what, down to the answer. The equations and ideas that appear in those chains are the whole course as far as this student is concerned. For each one note whether the exam hands it out or it must be known. Whatever no chain uses is not taught.
 
-**Ask the student exactly one thing**, because nothing in the files can answer it: in how many days do they want to be able to solve all of these problems on their own? If their message already says it ("exam on Monday, I have five days"), do not ask.
+Group the chains into **items** (one capability each, two to five words, `A1`, `A2`…) and the items into a few **blocks** that mirror the exam's problems. Every in-scope problem belongs to one item; every item has a problem to practise on. Details: [references/decomposition.md](references/decomposition.md).
 
-Do not ask anything else up front. Exam date, format, coverage and allowed aids are almost always in the materials; find them there. Their background shows itself in the first chunk. Their calculator matters only when the first calculation needs it, so ask then.
+## 4. The first 30 minutes
 
-### 2. Read the material, all of it
+The first lesson is built backward from **problem 1 of the practice exam** (with no practice exam, the most exam-like homework problem).
 
-Read every problem and every solution in full before planning anything. Then read the exam-facing documents (practice exam, cover sheet, equation sheet, scope announcement). Read lecture notes and textbook sections for the topics the problems touch.
+- List what that one problem needs, in dependency order. One chunk each. **Six chunks at most.**
+- Leave out everything it does not need, however fundamental it looks.
+- Then the student solves problem 1 itself, with only what the exam allows.
+- If it truly needs more than six ideas, cover the parts that six reach, have them solve those parts, and say what the remaining part is waiting for.
 
-Details, including scanned and handwritten sources and working with subagents: [references/decomposition.md](references/decomposition.md).
+This lesson is item `A1`, and `Practice exam P1` is the ✍️ row right after it. The full practice exam is still sat as a timed run at the end; by then problem 1 is a second attempt.
 
-### 3. Cut the course into blocks and items
+## 5. Write the plan file
 
-Work backward from the exam. Cluster the problems by *what the solver has to do*, name each cluster as a capability, and group the clusters into a few blocks. Every in-scope problem lands in exactly one item, and every item has at least one problem to practise on.
+Copy [assets/plan-template.md](assets/plan-template.md) exactly.
 
-How to do this well, and how to schedule it into the days available: [references/decomposition.md](references/decomposition.md).
+- A title, one line of exam facts, the blocks table, a short legend, one table per day. Nothing else: no front matter, no formulas, no method, no sources, no encouragement.
+- Rows are parallel and in the order they will be done. 📚 is a lesson item. ✍️ is a problem solved closed-book, named by its real identifier (`HW7 Q3`). `Exam` is a timed full exam. Done is empty, then ✅.
+- Each lesson row is followed by its problems. Each day opens with one or two problems from the day before. The last study day is the practice exam timed, its review, a second mock you write, its review, and a redo of every missed problem.
+- Written in the language of the course. Saved next to the course materials, named for the exam (`Midterm 2 Plan.md`).
 
-### 4. Write the plan file
+Tell the student where the file is in two or three lines. Do not repeat its rows in chat. Then start teaching in the same message.
 
-Copy the structure of [assets/plan-template.md](assets/plan-template.md) exactly. The student ticks rows in this file for days; it has to be readable at a glance.
+## 6. Teach
 
-- **Content**: a title, one line of exam facts, the blocks table, a two-line legend, then one table per day. That is the whole file. No front matter or properties block, no formula lists, no explanation of the method, no source lists, no encouragement.
-- **Rows are parallel.** Lesson items and practice problems are equal rows in one ordered list, in the order the student will do them. 📚 marks a lesson item (`A1`, `B2`). ✍️ marks a problem to solve closed-book, named by its real identifier (`HW7 Q3`). `Exam` marks a timed full exam.
-- **Done column**: empty until the row is finished, then ✅.
-- **Language**: the language of the course and the exam, whatever language the student chats in.
-- **Location and name**: next to the student's course materials, named for the exam (`Midterm 2 Plan.md`). If they keep a notes vault with its own folder naming, follow it. With no file system, deliver it as a markdown file.
+Read [references/teaching.md](references/teaching.md) first. In short:
 
-Show the student the plan and let them move things. They know their week better than you do.
+- **📚 row**: 5-minute chunks, one idea each, one chunk per message. A chunk is a heading, one picture that shows exactly one thing, a few plain sentences, and two to four one-line quiz questions. Wait for the answers. The last chunk of an item is a full problem: you work one, they work its twin.
+- **✍️ row**: they solve it closed-book and send their work. Grade it the way the exam would, find the one root error, check the official key before trusting it.
+- **Exam row**: timed, full conditions, then grade and fix every lost point.
 
-### 5. Tutor through the plan
+Tick ✅ in the file when a row is done and say what is next.
 
-Start at the first row without a ✅ and keep going. The three row types work differently:
+## Easy to get wrong
 
-- **📚 lesson item**: a handful of 5-minute chunks. Each chunk is one picture that shows exactly one thing, a plain-language explanation, and two to four one-line quiz questions. One chunk per message; wait for the answers before the next. The last chunk of an item puts the pieces together on a full problem: you work one, they work a parallel one.
-- **✍️ problem**: they solve the named problem closed-book, with only what the exam allows, and send their work. You grade it the way the exam would.
-- **Exam**: timed, full conditions, then you grade it and they fix every lost point.
-
-Tick the row in the plan file as soon as it is done, and tell them what the next row is.
-
-The chunk format, picture rules, grading and what to do when the student is lost are the heart of this skill. Read [references/teaching.md](references/teaching.md) before teaching the first chunk.
-
-## Things that are easy to get wrong
-
-- **Front-loading.** A "review of prerequisites" block or an opening list of formulas loses the student before they start. Teach each prerequisite inside the chunk that first needs it.
-- **More than one idea per chunk or per picture.** If a chunk needs two pictures, it is two chunks.
-- **Asking them to memorize.** Say what the exam hands them and what it does not, then let repetition across chunks and problems do the memorizing.
-- **Teaching what no problem asks for.** If no provided problem needs it and the scope statement does not name it, leave it out and say so.
-- **Showing the reserved mock exam early.** The official practice exam is worth most as an unseen timed run near the end. Use it to plan; do not walk through its solutions before then.
-- **Padding the plan.** Every line the student has to read past is a cost. If a sentence is not a row to tick or needed to read the rows, it does not belong in the file.
-- **Trusting the answer key blindly.** Official solutions contain slips. Check the key when you grade, and tell the student when it is wrong.
+- A review of prerequisites or a list of formulas before the first chunk. Teach each prerequisite inside the chunk that first needs it.
+- Two ideas in one chunk, or two things in one picture.
+- Asking the student to memorize. Say what the exam hands out and what it does not; repetition does the rest.
+- Teaching something no problem uses.
+- A first lesson that tours the chapter instead of aiming at problem 1.
+- Lines in the plan file that are not rows to tick.
+- When the student says they are lost: the step was too big. Halve it and try a different angle. Do not repeat it louder.
 
 ## Resuming
 
-In a later session the plan file is the state. Read it, find the first row without ✅, re-read the source material for that row and the rows around it, and continue. If the student has fallen behind, move rows to later days in the file rather than silently skipping them, and say plainly if the remaining rows no longer fit.
-
-## Reference files
-
-- [references/decomposition.md](references/decomposition.md): reading the material, cutting it into blocks and items, scheduling. Read before step 2.
-- [references/teaching.md](references/teaching.md): the chunk format with a worked example, pictures, quizzes, grading problems and mock exams. Read before step 5.
-- [assets/plan-template.md](assets/plan-template.md): the plan file's exact structure.
+The plan file is the state. Find the first row without ✅, re-read the source material for it, continue. If the student is behind, move rows to later days in the file and say so.
