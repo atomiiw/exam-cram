@@ -1,8 +1,12 @@
 # Exam cram
 
-Exam cram is a Claude skill for problem-solving courses like physics, math and engineering. You give it your homework and a practice exam, and it works out exactly which equations each exam problem needs and teaches you only those, in five-minute pieces you can follow on a tired brain. Thirty minutes in, you solve a problem just like the first one on your exam, by yourself.
+**Built for the Tired Brain.**
 
-## One five-minute piece
+It's midnight, the exam is in four days, and you haven't touched this course since the last midterm. Hand Claude your homework and it hunts down the only equations your exam actually uses, then feeds them to your Tired Brain one five-minute bite at a time: one picture, three plain sentences, three questions you could answer half asleep. Thirty minutes later you are solving a problem just like the first one on your exam, and you never once had to figure out what to study.
+
+For problem-solving courses: physics, math, engineering, chem, stats, econ.
+
+## One five-minute bite
 
 > **Chunk 2 · which way the wave goes**
 >
@@ -23,9 +27,9 @@ Exam cram is a Claude skill for problem-solving courses like physics, math and e
 >
 > **Claude:** All three right. Next is Chunk 3, frequency and speed.
 
-A handful of these, and then you do a problem just like problem 1 of your exam.
+That's it. That's the whole experience. A handful of bites later, your Tired Brain solves a problem just like problem 1 on your exam.
 
-## The plan it writes
+## Your whole week on one page
 
 ```markdown
 ### Thu
@@ -37,13 +41,13 @@ A handful of these, and then you do a problem just like problem 1 of your exam.
 | HW5 Q5 | ✍️ | Linear or circular |  |
 ```
 
-📚 is a lesson. ✍️ is a homework problem, done closed-book. The practice exam stays unopened until the last day, when you sit it timed.
+📚 is a lesson. ✍️ is one of your homework problems, done closed-book. Every homework problem the exam can draw on is a row. The practice exam stays sealed until the last day, when you sit it timed.
 
-## What it needs
+## What you hand over
 
-- Your course's homework or exam problems. This is required, because the plan is built from them.
-- Slides, textbook, syllabus and equation sheet if you have them.
-- One answer from you: how many days you have.
+- Your homework or exam problems. Required. The whole plan is built from them.
+- Slides, textbook, syllabus, equation sheet. Nice to have.
+- One answer: how many days you've got.
 
 ## Install
 
