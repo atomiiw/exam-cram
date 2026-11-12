@@ -6,11 +6,9 @@ It's midnight. The exam is in four days. Last time you studied, you chewed throu
 
 Skip the textbook. Hand Claude your homework. It hunts down the only equations your exam uses and feeds them to you in five-minute bites: one picture, three plain sentences, three easy questions.
 
-You just follow along and it soaks in like osmosis. Thirty minutes in, you solve problem 1 on the exam. By exam day, there is nothing on the paper you haven't already solved.
+You just follow along and it soaks in like osmosis. Thirty minutes in, you solve problem 1 on the exam.
 
-For problem-solving courses: physics, math, engineering, chem, stats, econ.
-
-## One five-minute bite
+## One bite
 
 > **Chunk 2 · which way the wave goes**
 >
@@ -31,9 +29,9 @@ For problem-solving courses: physics, math, engineering, chem, stats, econ.
 >
 > **Claude:** All three right. Next is Chunk 3, frequency and speed.
 
-That's it. That's the whole experience. A handful of bites later, your Tired Brain solves problem 1 on the exam.
+That's the whole experience.
 
-## Your whole week on one page
+## The plan
 
 ```markdown
 ### Thu
@@ -45,13 +43,13 @@ That's it. That's the whole experience. A handful of bites later, your Tired Bra
 | HW5 Q5 | ✍️ | Linear or circular |  |
 ```
 
-📚 is a lesson. ✍️ is one of your homework problems, done closed-book. Every homework problem the exam can draw on gets a row, and the plan lists the few it skips and why. The practice exam stays sealed until the last day, when you sit it timed.
+📚 is a lesson. ✍️ is a homework problem you do closed-book. Every one the exam can draw on gets a row. The practice exam stays sealed until the last day.
 
-## What you hand over
+## You hand over
 
-- Your homework or exam problems. Required. The whole plan is built from them.
+- Homework or exam problems from a problem-solving course (physics, math, engineering, chem, stats, econ). Required.
 - Slides, textbook, syllabus, equation sheet. Nice to have.
-- One answer: how many days you've got.
+- How many days you've got.
 
 ## Install
 
